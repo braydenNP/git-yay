@@ -4,7 +4,7 @@ see = input('Does the guard see the player (y/n)? ' ) #Get whether the guard see
 if see == 'y':
     sees_player = True
 elif see == 'n':
-    sees_player = False
+    sees_player = False #git
 
 if sees_player == False:
     print('The guard waits.')
